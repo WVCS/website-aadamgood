@@ -1,31 +1,31 @@
-body {
-  background-color: Red;
-  font-family: "Times New Roman";
-  color: Black;
-  font-size: 130%;
-  letter-spacing: 2px;
-}
-p{
- font-size: 130%;
- color: Green;
-}
-img{
-  width: 50%;
-  border-style: solid;
-  border-color: black;  
-}
-li{
-  float: left;
-}   
-li a{
-  padding: 20px;
-}
-li a:hover{
-  background-color: #FF7477;
-  color:white;
-}
-ul {
-  list-style-type: none;
+<html>
+<style>
+  h2 { 
+  color: blue;
+  font-size: 80px;
   text-align: center;
-  position: fixed;
+   text-decoration-line: overline;
+  text-decoration-color: green;
+   text-decoration-style: wavy;
+  letter-spacing: -4px;
+  word spacing: 10px;
+  text-shadow: 2px 2px 1px pink;
+
+
 }
+
+body{ 
+  background-color: red;
+}
+
+img {
+  width: 25%;
+  border: dotted blue 7px;
+  border-radius: 30%
+}
+
+img:hover {width: 40%;
+border: dotted gold;
+}
+
+</style>
